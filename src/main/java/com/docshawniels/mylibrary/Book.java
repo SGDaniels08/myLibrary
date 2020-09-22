@@ -22,6 +22,29 @@ public class Book {
         this.title = title;
     }
 
+    public Book(String title, Bookshelf shelf) {
+        this.title = title;
+        this.shelf = shelf;
+    }
+
     // Getters and Setters
 
+    public long getId() {
+        return id;
+    }
+    public void setId(long id) {
+        this.id = id;
+    }
+    public String getTitle() {
+        return title;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public Bookshelf getShelf() {
+        return shelf;
+    }
+    public void setShelf(Bookshelf shelf) {
+        this.shelf = shelf;
+    }
 }

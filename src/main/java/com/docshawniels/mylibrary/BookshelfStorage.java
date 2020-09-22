@@ -13,7 +13,6 @@ public class BookshelfStorage {
     }
 
     // Getters and Setters
-
     public BookshelfRepository getBookshelfRepo() {
         return bookshelfRepo;
     }

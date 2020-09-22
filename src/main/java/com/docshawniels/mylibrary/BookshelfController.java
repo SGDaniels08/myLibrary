@@ -1,6 +1,9 @@
 package com.docshawniels.mylibrary;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.Collection;
 
 @Controller
 public class BookshelfController {
@@ -22,4 +25,14 @@ public class BookshelfController {
     }
 
     // HTTP Methods
+
+    @GetMapping("/","")
+
+    @GetMapping()
+    public String getAllBooksOnShelf() {
+
+    }
+    // addBook()
+    // removeBook()
+    // updateBook()
 }

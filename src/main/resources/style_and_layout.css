@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+main {
+    margin: 5rem 0;
+}
+
+.room {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(75, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+    width: 75vw;
+    height: 40vw;
+    background-color: seashell
+}
+
+.bookshelf {
+    background-color: chocolate;
+    position: relative;
+    border: solid black 3px;
+}
+
+#bookshelf1 {
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+#bookshelf2 {
+    grid-column-start: 11;
+    grid-column-end: 19;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+#bookshelf3 {    
+    grid-column-start: 20;
+    grid-column-end: 28;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.desk {
+    background-color: brown;
+    position: relative;
+    grid-column-start: 6;
+    grid-column-end: 30;
+    grid-row-start: 27;
+    grid-row-end: 35;
+}
